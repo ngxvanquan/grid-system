@@ -1,0 +1,14 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.item {
+    border: 1px solid #666;
+}
+
+[class*="col-"] > * {
+    border: 1px solid #666;
+    white-space: nowrap;
+}
